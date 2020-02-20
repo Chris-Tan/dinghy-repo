@@ -27,11 +27,11 @@
           "type": "manualJudgment"
         },
         {
-          "name": "Pause-10",
+          "name": "Pause-14",
           "refId": "3",
           "requisiteStageRefIds": [],
           "type": "wait",
-          "waitTime": 1
+          "waitTime": 4
         },
       ],
       "triggers": []
