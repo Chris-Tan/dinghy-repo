@@ -8,13 +8,7 @@
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
       "stages": [
-        {
-          "name": "Pause-9",
-          "refId": "1",
-          "requisiteStageRefIds": [],
-          "type": "wait",
-          "waitTime": 3
-        },
+        {{ module "wait.stage.module" "waitTime" 2 }},
         {
           "failPipeline": true,
           "judgmentInputs": [],
