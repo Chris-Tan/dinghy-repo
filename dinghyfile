@@ -9,16 +9,16 @@
       "limitConcurrent": true,
       "stages": [
         {
-          "name": "Pause-8",
+          "name": "Pause-9",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
-          "waitTime": 2
+          "waitTime": 3
         },
         {
           "failPipeline": true,
           "judgmentInputs": [],
-          "name": "Manual Judgment8",
+          "name": "Manual Judgment9",
           "notifications": [],
           "refId": "2",
           "requisiteStageRefIds": [
