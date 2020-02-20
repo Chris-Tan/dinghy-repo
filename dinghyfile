@@ -9,7 +9,7 @@
       "stages": [
         {
           "name": "Pause-7",
-          "refId": "1",
+          "refId": "3",
           "requisiteStageRefIds": [],
           "type": "wait",
           "waitTime": 2
@@ -19,7 +19,7 @@
           "judgmentInputs": [],
           "name": "Manual Judgment7",
           "notifications": [],
-          "refId": "2",
+          "refId": "4",
           "requisiteStageRefIds": [
             "1"
           ],
@@ -27,7 +27,7 @@
         }
       ],
       "triggers": [],
-      "updateTs": "1582224943000"
+      "updateTs": "1582224943001"
     }
   ]
 }
