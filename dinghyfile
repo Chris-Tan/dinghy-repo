@@ -2,14 +2,13 @@
   "application": "spin",
   "pipelines": [
     {
-      "application": "spin",
-      "name": "pipeline6",
+      "name": "pipeline7",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
       "stages": [
         {
-          "name": "Pause12345",
+          "name": "Pause-7",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
@@ -18,7 +17,7 @@
         {
           "failPipeline": true,
           "judgmentInputs": [],
-          "name": "Manual Judgment",
+          "name": "Manual Judgment7",
           "notifications": [],
           "refId": "2",
           "requisiteStageRefIds": [
