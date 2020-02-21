@@ -3,30 +3,12 @@
   "pipelines": [
     {
       "application": "spin",
-      "name": "pipeline7",
+      "name": "pipeline77",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
       "stages": [
-        {{ module "test.pipeline.module" }},
-        {
-          "failPipeline": true,
-          "judgmentInputs": [],
-          "name": "Manual Judgment9",
-          "notifications": [],
-          "refId": "2",
-          "requisiteStageRefIds": [
-            "1"
-          ],
-          "type": "manualJudgment"
-        },
-        {
-          "name": "Pause-14",
-          "refId": "3",
-          "requisiteStageRefIds": [],
-          "type": "wait",
-          "waitTime": 6
-        },
+        {{ module "test.pipeline.module" }}
       ],
       "triggers": []
     }
