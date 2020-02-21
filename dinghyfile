@@ -3,7 +3,7 @@
   "pipelines": [
     {
       "application": "spin",
-      "name": "pipeline771234",
+      "name": "pipeline7712345",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
@@ -12,7 +12,12 @@
         {{ module "test.pipeline.module" }},
         {{ module "test.pipeline.module" }}
       ],
-      "stages7sdf": [
+      "stages7sdf2": [
+        {{ module "test.pipeline.module" }},
+        {{ module "test.pipeline.module" }},
+        {{ module "test.pipeline.module" }}
+      ],
+      "stages7sdf3": [
         {{ module "test.pipeline.module" }},
         {{ module "test.pipeline.module" }},
         {{ module "test.pipeline.module" }}
