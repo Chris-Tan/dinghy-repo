@@ -7,12 +7,12 @@
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
-      "stages": [
+      "stages7sdf": [
+        {{ module "test.pipeline.module" }},
         {{ module "test.pipeline.module" }},
         {{ module "test.pipeline.module" }}
-        {{ module "test.pipeline.module" }}
       ],
-      "triggers": [],
+      "triggers": []
     }
   ]
 }
