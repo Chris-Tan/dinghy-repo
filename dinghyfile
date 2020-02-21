@@ -8,10 +8,10 @@
       "lastModifiedBy": "admin",
       "limitConcurrent": true,
       "stages": [
-        {{ module "test.pipeline.module" ,
-        {{ module "test.pipeline.module" },
-        {{ module "test.pipeline.module" }}
-      
+        {{ module "test.pipeline.module" }},
+        {{ module "test.pipeline.modules" }},
+        {{ module "test2.pipeline.module" }}
+      ],
       "triggers": []
     }
   ]
