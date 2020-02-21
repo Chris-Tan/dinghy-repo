@@ -6,13 +6,13 @@
       "name": "pipeline77",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
-      "limitConcurrent": truestdfsdf,
+      "limitConcurrent": true,
       "stages": [
         {{ module "test.pipeline.module" }},
         {{ module "test.pipeline.module" }}
         {{ module "test.pipeline.module" }}
       ],
-      "triggers": []
+      "triggers": [],
     }
   ]
 }
