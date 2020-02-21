@@ -6,7 +6,7 @@
       "name": "pipeline77",
       "keepWaitingPipelines": false,
       "lastModifiedBy": "admin",
-      "limitConcurrent": true,
+      "limitConcurrent": truestdfsdf,
       "stages": [
         {{ module "test.pipeline.module" }},
         {{ module "test.pipeline.module" }}
